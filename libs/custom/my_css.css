@@ -13,6 +13,25 @@ h4 {
 .main-description .fa {
   font-size: 22px;
   margin-top: 5px; }
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 12px; }
+.social-icon {
+  color: #222;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 0.2s ease; }
+.social-icon:hover,
+.social-icon:focus {
+  color: #1EAEDB; }
+.main-description .social-icon {
+  font-size: 22px;
+  margin-top: 5px; }
+.footer .social-links {
+  justify-content: center; }
 .paper {
   margin-bottom: 20px }
 .paper .title {
