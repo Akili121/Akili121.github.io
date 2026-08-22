@@ -15,7 +15,8 @@ title: Home
 
   <p>
   I am a PhD Candidate in the Department of Mechanical Engineering at the University of Alberta,
-  supervised by Dr. Xinming Li and co-supervised by Dr. Lingzi Wu. I was a visiting PhD student at the
+  supervised by <a href="https://www.ergoresearchlab.com/" target="_blank">Dr. Xinming Li</a> and co-supervised by
+  <a href="https://faculty.washington.edu/lingwu/#/" target="_blank">Dr. Lingzi Wu</a>. I was a visiting PhD student at the
   University of Washington and previously a visiting master's student at the National University of Singapore.
   I received my M.Sc. in Engineering Management from Central South University and my B.Eng. in Engineering
   Management from Central South University of Forestry and Technology, where I ranked first in my cohort.
@@ -57,14 +58,15 @@ title: Home
   </p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#papers-journal">Journal</div></li>
+    <li><div class="button" data-ref="#papers-conference">Conference</div></li>
+    <li><div class="button" data-ref="#papers-poster">Poster</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
+    <div class="tab-pane active" id="papers-journal">
+      {% assign journal_papers = site.data.publications.papers | where: "category", "journal" %}
+      {% for paper in journal_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -99,8 +101,9 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
+    <div class="tab-pane" id="papers-conference">
+      {% assign conference_papers = site.data.publications.papers | where: "category", "conference" %}
+      {% for paper in conference_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -131,6 +134,17 @@ title: Home
             {% endif %}
 
           </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-poster">
+      {% assign poster_papers = site.data.publications.papers | where: "category", "poster" %}
+      {% for paper in poster_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }}</i></p>
         </div>
       {% endfor %}
     </div>
