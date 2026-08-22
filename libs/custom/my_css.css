@@ -146,6 +146,16 @@ h4 {
 .interest-heading p {
   color: rgba(0, 0, 0, 0.65);
   margin-bottom: 0; }
+.interest-icon {
+  color: #aaa;
+  font-size: 2.8rem;
+  line-height: 1;
+  margin-top: .2rem; }
+.photo-album-heading h5 {
+  font-size: 3rem;
+  font-weight: 300; }
+.album-description {
+  font-style: italic; }
 .travel-gallery {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -161,6 +171,18 @@ h4 {
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover; }
+.travel-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22rem;
+  border: 1px dashed #d8d8d8;
+  border-radius: 4px;
+  color: #aaa;
+  font-size: 1.1rem;
+  letter-spacing: .14rem;
+  text-align: center;
+  text-transform: uppercase; }
 .badminton-section {
   padding-bottom: 1rem; }
 
