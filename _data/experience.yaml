@@ -1,0 +1,31 @@
+experiences:
+
+- place: "University of Alberta"
+  time: "2023 - present"
+  title: "PhD Candidate"
+  subtitle: "Department of Mechanical Engineering <br/> Supervisors: <a href='https://www.ergoresearchlab.com/' target='_blank'>Dr. Xinming Li</a> and <a href='https://faculty.washington.edu/lingwu/#/' target='_blank'>Dr. Lingzi Wu</a>"
+  category: "school"
+
+- place: "University of Washington"
+  time: "Summer 2025"
+  title: "Visiting PhD Student"
+  subtitle: "Department of Construction Management <br/> Supervisor: <a href='https://faculty.washington.edu/lingwu/#/' target='_blank'>Dr. Lingzi Wu</a>"
+  category: "work"
+
+- place: "Central South University"
+  time: "2020 - 2023"
+  title: "M.Sc. Student"
+  subtitle: "Engineering Management <br/> Supervisor: <a href='https://faculty.csu.edu.cn/shanming/en/index.htm' target='_blank'>Dr. Ming Shan</a>"
+  category: "school"
+
+- place: "National University of Singapore"
+  time: "2021 - 2022"
+  title: "Visiting Master's Student"
+  subtitle: "Department of the Built Environment <br/> Supervisor: <a href='https://cde.nus.edu.sg/dbe/cpfm/cpairu/professor/' target='_blank'>Prof. Bon-Gang Hwang</a>"
+  category: "work"
+
+- place: "Central South University of Forestry and Technology"
+  time: "2016 - 2020"
+  title: "B.Eng. Student"
+  subtitle: "Engineering Management <br/> Ranked 1st of 73 students"
+  category: "school"

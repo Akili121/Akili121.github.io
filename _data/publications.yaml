@@ -1,0 +1,55 @@
+papers:
+
+  - title: "Towards Equitable Post-Disaster Highway Restoration: A GNN-Based Framework for Segment-Level Prioritization"
+    authors: "<b>Beixuan Dong</b>, Lingzi Wu, Xinming Li"
+    venue: "Transportation Research Part D: Transport and Environment, under review, 2026."
+    category: journal
+    paper_pdf: "https://scholar.google.com/scholar?q=%22Towards+Equitable+Post-Disaster+Highway+Restoration%3A+A+GNN-Based+Framework+for+Segment-Level+Prioritization%22"
+
+  - title: "A GNN-Based Framework for Assessing Flood Impacts on Highway Networks: Integrating Network Structural, Functional, and Social Features"
+    authors: "<b>Beixuan Dong</b>, Xinming Li, Lingzi Wu"
+    venue: "Journal of Management in Engineering, 42(4), 04026010, 2026."
+    category: journal
+    paper_pdf: "https://doi.org/10.1061/JMENEA.MEENG-7198"
+
+  - title: "Short-Term Natural Disaster Impacts on Transportation Infrastructure: A Systematic Review"
+    authors: "<b>Beixuan Dong</b>, Shiyuan Ding, Lingzi Wu, Xinming Li"
+    venue: "Natural Hazards, 121(15), 17321-17362, 2025."
+    category: journal
+    paper_pdf: "https://doi.org/10.1007/s11069-025-07504-9"
+
+  - title: "Examining Mental Resilience of Contractor in Urban Rail Transit Construction Project Under Disruptive Events"
+    authors: "<b>Beixuan Dong</b>, Ming Shan, Jianhui Cui, Bon-Gang Hwang"
+    venue: "Tunnelling and Underground Space Technology, 163, 106725, 2025."
+    category: journal
+    paper_pdf: "https://doi.org/10.1016/j.tust.2025.106725"
+
+  - title: "Simulation of Transportation Infrastructures Resilience: A Comprehensive Review"
+    authors: "<b>Beixuan Dong</b>, Ming Shan, Bon-Gang Hwang"
+    venue: "Environmental Science and Pollution Research, 29(9), 12965-12983, 2022."
+    category: journal
+    paper_pdf: "https://doi.org/10.1007/s11356-021-18033-w"
+
+  - title: "Flood Impact Assessment on Highway Networks Considering Socioeconomic Vulnerability: Evidence from Harris County"
+    authors: "<b>Beixuan Dong</b>, Lingzi Wu, Xinming Li"
+    venue: "43rd International Symposium on Automation and Robotics in Construction (ISARC), 2026."
+    category: conference
+    paper_pdf: "https://doi.org/10.22260/ISARC2026/0191"
+
+  - title: "Impacts Identification of Supplier Reliability on Project Duration in Heavy Industrial Construction Supply Chain Using Discrete Event Simulation"
+    authors: "<b>Beixuan Dong</b>, Chang Zhou, Brandon Gue, Xinming Li, Lingzi Wu"
+    venue: "10th Joint CRC/CSCE Construction Specialty Conference, 2025."
+    category: conference
+    paper_pdf: "https://doi.org/10.22260/CRC-CSCE-2025/0081"
+
+  - title: "Short-Term Disaster Impacts on Transportation Infrastructure: A Review of Emerging Technologies and Approaches"
+    authors: "<b>Beixuan Dong</b>, Lingzi Wu, Xinming Li"
+    venue: "Computing in Civil Engineering, 2024."
+    category: conference
+    paper_pdf: "https://doi.org/10.1061/9780784486139.031"
+
+  - title: "Impacts Identification of Supplier Reliability on Project Duration in Heavy Industrial Construction Supply Chain Using Discrete Event Simulation"
+    authors: "<b>Beixuan Dong</b>"
+    venue: "Poster presentation, Construction Innovation Center, Edmonton, Canada, 2024."
+    category: poster
+    paper_pdf: "https://constructioncic.ca/forum2024/"
