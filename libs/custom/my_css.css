@@ -122,6 +122,54 @@ h4 {
     margin-top: .4rem; }
 }
 
+/* ================ Beyond Work page ================ */
+.beyond-work-intro {
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 3rem; }
+.interest-section {
+  border-top: 1px solid #eee;
+  padding: 3rem 0; }
+.interest-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.8rem;
+  margin-bottom: 2rem; }
+.interest-number {
+  color: #1EAEDB;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  padding-top: .5rem; }
+.interest-heading h5 {
+  font-size: 2.2rem;
+  margin-bottom: .4rem; }
+.interest-heading p {
+  color: rgba(0, 0, 0, 0.65);
+  margin-bottom: 0; }
+.travel-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-left: 3.5rem; }
+.travel-photo {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 4px;
+  background: #f7f7f7; }
+.travel-photo img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover; }
+.badminton-section {
+  padding-bottom: 1rem; }
+
+@media (max-width: 549px) {
+  .travel-gallery {
+    grid-template-columns: 1fr;
+    margin-left: 0; }
+}
+
 /*  ================ Project styling  ================ */
 .project-container {
   margin-bottom: 30px;
