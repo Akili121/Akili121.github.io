@@ -76,26 +76,11 @@
             <h1>{{ site.data.main_info.name }}</h1>
             <p>{{ site.data.main_info.title }}</p>
             <p><a href="mailto:{{ site.data.main_info.email }}">{{ site.data.main_info.email }}</a></p>
-            <p>
-              {% if site.data.main_info.bsky %}<span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
-                <i class="fa-brands fa-bluesky" style="padding-top: 10px"></i>
-              </span>{% endif %}
-
-              {% if site.data.main_info.twitter %}<span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-                <i class="fa-brands fa-twitter fa-lg"></i>
-              </span>{% endif %}
-
-              <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-                <i class="fa-brands fa-linkedin fa-lg"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="fa-brands fa-github fa-lg"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
+            <p class="social-links">
+              <a class="social-icon" href="{{ site.data.main_info.google_scholar }}" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i></a>
+              <a class="social-icon" href="{{ site.data.main_info.linkedin }}" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i></a>
+              <a class="social-icon" href="{{ site.data.main_info.orcid }}" target="_blank" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid ai-lg" aria-hidden="true"></i></a>
+              <a class="social-icon" href="{{ site.data.main_info.github }}" target="_blank" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></a>
             </p>
         </div>
       </div>
@@ -123,26 +108,11 @@
         <div class="four columns">
           <a href="mailto:{{ site.data.main_info.email }}">{{ site.data.main_info.email }}</a>
         </div>
-        <div class="four columns">
-          {% if site.data.main_info.bsky %}<span onclick="window.open('{{ site.data.main_info.bsky }}')" style="cursor: pointer">
-            <i class="fa-brands fa-bluesky fa-sm" style="padding-top: 10px"></i>
-          </span>{% endif %}
-
-          {% if site.data.main_info.twitter %}<span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa-brands fa-twitter"></i>
-          </span>{% endif %}
-
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa-brands fa-linkedin"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-            <i class="fa-brands fa-github"></i>
-          </span>
-
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar" aria-hidden="true"></i>
-          </span>
+        <div class="four columns social-links">
+          <a class="social-icon" href="{{ site.data.main_info.google_scholar }}" target="_blank" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a class="social-icon" href="{{ site.data.main_info.linkedin }}" target="_blank" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+          <a class="social-icon" href="{{ site.data.main_info.orcid }}" target="_blank" aria-label="ORCID" title="ORCID"><i class="ai ai-orcid" aria-hidden="true"></i></a>
+          <a class="social-icon" href="{{ site.data.main_info.github }}" target="_blank" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
         </div>
       </div>
     </div>
