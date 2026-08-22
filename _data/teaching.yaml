@@ -1,0 +1,34 @@
+courses:
+  - code: "ENG M 632"
+    title: "Project Risk Management"
+    institution: "University of Alberta"
+    term: "Winter 2026"
+    responsibilities:
+      - "Answered student questions"
+      - "Graded assignments"
+
+  - code: "ENG M 620"
+    title: "Engineering Economic Analysis"
+    institution: "University of Alberta"
+    term: "Winter 2026"
+    responsibilities:
+      - "Answered student questions"
+      - "Graded assignments"
+
+  - code: "ENG M 530"
+    title: "Engineering Project Management"
+    institution: "University of Alberta"
+    term: "Fall 2025"
+    responsibilities:
+      - "Assisted with editing assignment questions"
+      - "Answered student questions"
+      - "Graded assignments"
+
+  - code: "ENG M 530"
+    title: "Engineering Project Management"
+    institution: "University of Alberta"
+    term: "Summer 2024"
+    responsibilities:
+      - "Independently delivered a class session on project schedule management"
+      - "Answered student questions"
+      - "Graded assignments"

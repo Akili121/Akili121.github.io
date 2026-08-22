@@ -1,0 +1,31 @@
+---
+layout: default
+title: Teaching
+---
+
+<div class="docs-section teaching-page">
+  <h4>Teaching</h4>
+  <p class="teaching-intro">
+    Teaching experience in Engineering Management at the University of Alberta.
+  </p>
+
+  <div class="teaching-list">
+    {% for course in site.data.teaching.courses %}
+      <article class="teaching-card">
+        <div class="teaching-card-header">
+          <div>
+            <span class="teaching-code">{{ course.code }}</span>
+            <h5>{{ course.title }}</h5>
+          </div>
+          <span class="teaching-term">{{ course.term }}</span>
+        </div>
+        <p class="teaching-institution">{{ course.institution }}</p>
+        <ul class="teaching-responsibilities">
+          {% for responsibility in course.responsibilities %}
+            <li>{{ responsibility }}</li>
+          {% endfor %}
+        </ul>
+      </article>
+    {% endfor %}
+  </div>
+</div>
