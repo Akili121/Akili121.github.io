@@ -16,7 +16,7 @@ h4 {
 .social-links {
   display: flex;
   align-items: center;
-  gap: 12px; }
+  gap: 20px; }
 .social-icon {
   color: #222;
   display: inline-flex;
@@ -24,12 +24,16 @@ h4 {
   justify-content: center;
   text-decoration: none;
   transition: color 0.2s ease; }
+.social-icon i {
+  color: #222; }
 .social-icon:hover,
-.social-icon:focus {
+.social-icon:focus,
+.social-icon:hover i,
+.social-icon:focus i {
   color: #1EAEDB; }
 .main-description .social-icon {
   font-size: 22px;
-  margin-top: 5px; }
+  margin-top: 10px; }
 .footer .social-links {
   justify-content: center; }
 .paper {
