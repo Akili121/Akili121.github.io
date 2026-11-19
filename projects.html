@@ -4,13 +4,14 @@ title: Projects
 ---
 
 <style>
-  .projects-page .research-project-figure { margin: 0 0 1.6rem auto; width: min(100%, 300px); }
+  .projects-page .research-project-figure { margin: 0 auto 1.6rem; width: min(100%, 350px); }
   .projects-page .research-project-figure a { display: block; background: white; cursor: zoom-in; }
   .projects-page .research-project-figure img { box-sizing: border-box; height: auto; }
   @media (min-width: 750px) {
-    .projects-page .research-project { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 38%); gap: 2.8rem; align-items: start; }
-    .projects-page .research-project-content { grid-column: 1; grid-row: 1; }
-    .projects-page .research-project-figure { grid-column: 2; grid-row: 1; margin-bottom: 0; }
+    .projects-page { width: min(92vw, 1040px); margin-left: 50%; transform: translateX(-50%); }
+    .projects-page .research-project { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr); gap: 2.8rem; align-items: center; }
+    .projects-page .research-project-content { grid-column: 2; grid-row: 1; }
+    .projects-page .research-project-figure { grid-column: 1; grid-row: 1; margin: 0; }
   }
 </style>
 
