@@ -1,0 +1,67 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="docs-section projects-page">
+  <h4>Projects</h4>
+  <p class="projects-intro">
+    My research develops data-driven methods for understanding infrastructure disruptions and supporting more resilient, equitable recovery decisions.
+  </p>
+
+  <div class="research-projects">
+    <article class="research-project">
+      <figure class="research-project-figure">
+        <img src="{{ '/assets/projects/flood-impact-framework.png' | prepend: site.baseurl }}" alt="Graph neural network framework for assessing flood impacts on highway networks">
+      </figure>
+      <div class="research-project-content">
+        <div class="research-project-meta">2026 · Flood impact assessment</div>
+        <h5>Assessing Flood Impacts on Highway Networks with Graph Neural Networks</h5>
+        <p class="research-project-keywords">Graph neural networks · highway networks · flood disruption · multidimensional infrastructure data</p>
+        <p>
+          This project develops a graph neural network framework that combines roadway structure, traffic operations, flood exposure, and community characteristics to assess how flooding disrupts highway networks. The model predicts post-flood traffic flow and speed and translates those changes into a Disaster Impact Index and a road-segment Criticality Score.
+        </p>
+        <p>
+          Applied to Harris County during Hurricane Harvey, the framework distinguishes direct impacts on inundated high-demand roads from indirect disruption that propagates through the network. It identifies critical corridors while accounting for the social vulnerability of the communities they serve, providing a more complete basis for preparedness and response planning.
+        </p>
+        <a class="button project-paper-button" href="https://doi.org/10.1061/JMENEA.MEENG-7198" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </article>
+
+    <article class="research-project">
+      <figure class="research-project-figure">
+        <img src="{{ '/assets/projects/equity-restoration-performance.png' | prepend: site.baseurl }}" alt="Comparison of highway recovery performance under alternative restoration strategies">
+      </figure>
+      <div class="research-project-content">
+        <div class="research-project-meta">Under revision · Equitable restoration</div>
+        <h5>Equity-Informed Post-Disaster Highway Restoration</h5>
+        <p class="research-project-keywords">social equity · post-disaster recovery · graph neural networks · restoration prioritization</p>
+        <p>
+          This project introduces the Equity-Based Resilience Index, a road-segment measure that links functional recovery needs with the social vulnerability of affected communities. A graph neural network learns this index from disaster, structural, operational, and socioeconomic information, turning equity objectives into actionable restoration priorities.
+        </p>
+        <p>
+          The Hurricane Harvey case study shows that a traffic-only strategy can overlook lower-demand roads that are essential to vulnerable communities. Jointly considering network performance and social vulnerability produces a more balanced recovery sequence, accelerating functional restoration while better aligning priorities with equity objectives.
+        </p>
+        <a class="button project-paper-button" href="https://scholar.google.com/scholar?q=%22Towards+Equitable+Post-Disaster+Highway+Restoration%3A+A+GNN-Based+Framework+for+Segment-Level+Prioritization%22" target="_blank" rel="noopener">Manuscript</a>
+      </div>
+    </article>
+
+    <article class="research-project">
+      <figure class="research-project-figure">
+        <img src="{{ '/assets/projects/contractor-resilience-model.png' | prepend: site.baseurl }}" alt="Agent-based model of contractors' mental resilience under disruptive events">
+      </figure>
+      <div class="research-project-content">
+        <div class="research-project-meta">2025 · Human and organizational resilience</div>
+        <h5>Modeling Contractors’ Mental Resilience under Disruptive Events</h5>
+        <p class="research-project-keywords">agent-based modeling · mental resilience · urban rail transit · land subsidence</p>
+        <p>
+          This project uses agent-based modeling to examine how contractors’ mental resilience evolves during disruptive events in urban rail transit construction. The model represents interactions among hazard experience, risk perception, flexibility, cooperation, information seeking, and fear, and is evaluated through a land-subsidence case from Jinan Metro Line 2.
+        </p>
+        <p>
+          The findings identify fear as a central mechanism and reveal a behavioral pathway from prior experience and risk perception to adaptive action, collaboration, information exchange, and reduced fear. The results support targeted management strategies for strengthening workforce resilience during construction emergencies.
+        </p>
+        <a class="button project-paper-button" href="https://doi.org/10.1016/j.tust.2025.106725" target="_blank" rel="noopener">Paper</a>
+      </div>
+    </article>
+  </div>
+</div>
