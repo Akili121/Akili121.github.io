@@ -3,6 +3,17 @@ layout: default
 title: Projects
 ---
 
+<style>
+  .projects-page .research-project-figure { margin: 0 0 1.6rem auto; width: min(100%, 300px); }
+  .projects-page .research-project-figure a { display: block; background: white; cursor: zoom-in; }
+  .projects-page .research-project-figure img { box-sizing: border-box; height: auto; }
+  @media (min-width: 750px) {
+    .projects-page .research-project { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 38%); gap: 2.8rem; align-items: start; }
+    .projects-page .research-project-content { grid-column: 1; grid-row: 1; }
+    .projects-page .research-project-figure { grid-column: 2; grid-row: 1; margin-bottom: 0; }
+  }
+</style>
+
 <div class="docs-section projects-page">
   <h4>Projects</h4>
   <p class="projects-intro">
@@ -12,7 +23,7 @@ title: Projects
   <div class="research-projects">
     <article class="research-project">
       <figure class="research-project-figure">
-        <img src="{{ '/assets/projects/flood-impact-framework.png' | prepend: site.baseurl }}" alt="Graph neural network framework for assessing flood impacts on highway networks">
+        <a href="{{ '/assets/projects/flood-impact-framework.png' | prepend: site.baseurl }}" target="_blank" rel="noopener" aria-label="View full-size figure: Graph neural network framework for assessing flood impacts on highway networks"><img src="{{ '/assets/projects/flood-impact-framework.png' | prepend: site.baseurl }}" alt="Graph neural network framework for assessing flood impacts on highway networks"></a>
       </figure>
       <div class="research-project-content">
         <div class="research-project-meta">2026 · Flood impact assessment</div>
@@ -30,7 +41,7 @@ title: Projects
 
     <article class="research-project">
       <figure class="research-project-figure">
-        <img src="{{ '/assets/projects/equity-restoration-performance.png' | prepend: site.baseurl }}" alt="Framework for equity-based highway resilience measurement and restoration prioritization">
+        <a href="{{ '/assets/projects/equity-restoration-performance.png' | prepend: site.baseurl }}" target="_blank" rel="noopener" aria-label="View full-size figure: Framework for equity-based highway resilience measurement and restoration prioritization"><img src="{{ '/assets/projects/equity-restoration-performance.png' | prepend: site.baseurl }}" alt="Framework for equity-based highway resilience measurement and restoration prioritization"></a>
       </figure>
       <div class="research-project-content">
         <div class="research-project-meta">Under revision · Equitable restoration</div>
@@ -48,7 +59,7 @@ title: Projects
 
     <article class="research-project">
       <figure class="research-project-figure">
-        <img src="{{ '/assets/projects/contractor-resilience-model.png' | prepend: site.baseurl }}" alt="Simulation interface for contractors' mental resilience under disruptive events">
+        <a href="{{ '/assets/projects/contractor-resilience-model.png' | prepend: site.baseurl }}" target="_blank" rel="noopener" aria-label="View full-size figure: Simulation interface for contractors' mental resilience under disruptive events"><img src="{{ '/assets/projects/contractor-resilience-model.png' | prepend: site.baseurl }}" alt="Simulation interface for contractors' mental resilience under disruptive events"></a>
       </figure>
       <div class="research-project-content">
         <div class="research-project-meta">2025 · Human and organizational resilience</div>
